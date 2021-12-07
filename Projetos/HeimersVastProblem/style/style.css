@@ -1,0 +1,251 @@
+body, html {
+	margin: 0;
+	height: 100vh;
+}
+
+body {
+	background: rgb(13, 14, 13);
+	color: white;
+}
+
+.index-container {
+	display: flex;
+	flex-flow: column;
+}
+
+.title-wrapper {
+	display: flex;
+	text-align: center;
+}
+
+.title {
+	margin: auto;
+	font-size: 3rem;
+    font-weight: 700;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    color: white;
+	font-weight: 700;
+}
+
+.index-story {
+	display: flex;
+}
+
+.story-text {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 5rem;
+}
+
+.readybtn {
+	display: flex;
+}
+
+.link-readybtn {
+	margin: auto;
+	text-decoration: none;
+	color: purple;
+	border: 2px solid;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.link-readybtn:hover {
+	background: rgb(20, 3, 39);
+}
+
+.charselect-container {
+	display: flex;
+	flex-flow: column;
+}
+
+.charselect-story {
+	display: flex;
+}
+
+.charselect-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.card-docshis {
+	text-align: center;
+	width: 30%;
+	padding-bottom: 3rem;
+	border: 2px solid;
+	border-radius: .3rem;
+	border-color: rgb(32, 109, 180);
+}
+
+.docshis-desc {
+	padding: 3rem;
+}
+
+.link-docshis {
+	margin: auto;
+	text-decoration: none;
+	color: rgb(32, 109, 180);
+	background: rgb(3, 1, 36);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.card-platyp {
+	text-align: center;
+	width: 30%;
+	padding-bottom: 3rem;
+	border: 2px solid;
+	border-radius: .3rem;
+	border-color: rgb(228, 207, 20);
+}
+.platyp-desc {
+	padding: 3rem;
+}
+
+.link-platyp {
+	margin: auto;
+	text-decoration: none;
+	color: rgb(228, 207, 20);
+	background: rgb(90, 50, 0);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.card-peng {
+	text-align: center;
+	width: 30%;
+	padding-bottom: 3rem;
+	border: 2px solid;
+	border-radius: .3rem;
+	border-color: rgb(10, 236, 85);
+}
+
+.peng-desc {
+	padding: 3rem;
+}
+
+.link-peng {
+	margin: auto;
+	text-decoration: none;
+	color: rgb(10, 236, 85);
+	background: rgb(15, 59, 15);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.game-container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+
+.game-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+
+.game-card-1 {
+	padding: .8rem 1.6rem;
+	border: 2px solid;
+	border-radius: .7em;
+	width: 40%;
+}
+
+.game-card-2 {
+	padding: .8rem 1.6rem;
+	border: 2px solid;
+	border-radius: .7em;
+	width: 40%;
+}
+
+.docshis-btn-answer {
+	margin: auto;
+	text-decoration: none;
+	color: rgb(32, 109, 180);
+	background: rgb(3, 1, 36);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.peng-btn-answer {
+	margin: auto;
+	text-decoration: none;
+	color: rgb(10, 236, 85);
+	background: rgb(15, 59, 15);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.platyp-btn-answer {
+	margin: auto;
+	text-decoration: none;
+	color: rgb(228, 207, 20);
+	background: rgb(90, 50, 0);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	padding: .8rem 1.6rem;
+	width: fit-content;
+	border-radius: .7em;
+}
+
+.winlose-container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.winlose-btns {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+
+.winlose-btn-restart {
+	padding: .8rem 1.6rem;
+}
+
+.winlose-btn-lastsave {
+	padding: .8rem 1.6rem;
+}
+
+.winlose-btn-charselect {
+	padding: .8rem 1.6rem;
+}
